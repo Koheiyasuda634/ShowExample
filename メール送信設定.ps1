@@ -8,9 +8,9 @@ $SMTPClient=New-Object Net.Mail.SmtpClient($server,$port)
 
 ####メールの内容####
 # 送信者
-$from = "from@test.jp"
+$from = "yamagata@ken.jp"
 # 受信者
-$to = "to@test.jp"
+$to = "yamaguchi@ken.jp"
 # 件名
 $subject = "送信テスト"
 # 本文
